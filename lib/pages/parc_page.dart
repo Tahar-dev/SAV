@@ -25,6 +25,7 @@ class _parcPageState extends State<parcPage> {
   final TextEditingController _textController2 = TextEditingController();
   final TextEditingController _textController3 = TextEditingController();
   late Timer _timer;
+  int x = 0 ; 
 
   @override
   void initState() {
